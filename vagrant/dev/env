@@ -1,0 +1,4 @@
+export DEV_VAGRANT_OS="ubuntu1804"
+export DEV_VAGRANT_NNIC=2
+export DEV_VAGRANT_VCPU=4
+export DEV_VAGRANT_VRAM=4096

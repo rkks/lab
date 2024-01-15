@@ -1,0 +1,16 @@
+# Vagrant Environment for Development machines
+
+Steps:
+$ source ./env
+$ vagrant up
+
+VM defaults:
+- Supported OS: ubuntu-18.04  (TODO: freebsd, solaris, macos)
+- 16GB RAM, 8 vCPUs, 1 Bridged NIC
+- Tested vagrant providers: Virtualbox, Libvirt
+
+Creates a development machine with below pre-requisites:
+- dotfile fetched and configured from github
+- utility scripts fetched and configured from github
+- nightly update/cleanup/sync tasks configured
+- important packages downloaded and installed
